@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: white;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 0px 45px 0px 50px;
+    
+    
+}
+#header-container .logo{
+    font-size: larger;
+}
+header div{
+    align-items: center;
+    /* margin: 0px auto; */
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+/***header***/
+
+.menu nav li a{
+    padding-right: 5px;
+    background-color: #F7F6F6;
+    border-radius: 3px;
+    font-size: smaller;
+    
+    
+
+}
+.menu nav select{
+    border: none;
+}
+.search-container input{
+    width: 230px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #F7F6F6;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.login nav li a{
+    padding: 6px 13px 6px 30px ;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+}
+#menu-container{
+    height: 30vh;
+    /* border: 2px solid black; */
+    background-image: url(../E-commerce/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    
+}
+#menu-container div{
+    display: inline-block;
+    margin: 80px 130px 0px 130px;
+    
+}
+.menu-text-one{
+    float: left;
+    
+}
+.menu-text-two{
+    float: right;
+}
+
+/**menu****/
+
+#body-container{
+    margin: 100px 130px 100px 130px;
+}
+.table-section table{
+    width: 100%;
+    text-align: center;
+    border: none;
+    margin-bottom: 35px;
+    
+}
+.table-section table th{
+    background-color: black;
+    color: white;
+    
+}
+.table-section table td{
+    font-weight: 700;
+}
+table img{
+    border-radius: 7px;
+    height: 150px;
+    margin-top: 8px;
+}
+.arithmetic{
+    display: flex;
+}
+.arithmetic div{
+    flex-grow: 1;
+}
+
+
+/***body-container****/
+
+
+.payment-login-section{
+    display: grid;
+    grid-template-columns: 30% 66%;
+    justify-content: space-between
+}
+.payment-section a{
+    background-color: red;
+    padding: 10px 70px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.charges div{
+    display: inline;
+}
+.total-charges{
+    display: flex;
+}
+.charges{
+    display: flex;
+    margin: 10px 0px;
+    color: grey;
+}
+.en{
+    flex-grow: 1;
+}
+.total-charges{
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 13px 0px;
+
+}
+.ne{
+    flex-grow: 1;
+    
+}
+
+
+
+
+
+
+
+.directories input{
+    width: 100%;
+    height: 55px;
+    border-radius: 3px;
+    border-width: 0;
+    background-color: #edeff0;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.directories .kart-action button{
+    padding: 12px 12px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.directories a{
+    float: right;
+    background-color: red;
+    padding: 12px 30px 12px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+    padding: 60px 127px 60px 127px;
+    color: white;
+    
+}
+#footer-container{
+    display: grid;
+    grid-template-columns: 60% 20%;
+    justify-content: space-between;    
+}
+.redirect{
+    display: flex;
+
+}
+.redirect-one{
+    flex-grow: 1;
+}
+.redirect-one nav li{
+    display: block;
+}
+.footer-payment-container{
+    margin-top: 103px;
+}
+
+
+
+
+
+
